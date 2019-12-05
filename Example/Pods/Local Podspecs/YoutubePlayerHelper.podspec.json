@@ -1,0 +1,22 @@
+{
+  "name": "YoutubePlayerHelper",
+  "version": "0.1.0",
+  "summary": "A short description of YoutubePlayerHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NeolabAram/YoutubePlayerHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NeolabAram": "arammoon@neolab.kr"
+  },
+  "source": {
+    "git": "https://github.com/NeolabAram/YoutubePlayerHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YoutubePlayerHelper/Classes/**/*"
+}
