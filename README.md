@@ -22,7 +22,7 @@ pod 'YoutubePlayerHelper'
 
 ## Author
 
-NeolabAram, arammoon@neolab.kr
+Arammoon, arammoon11@gmail.com
 
 ## License
 
