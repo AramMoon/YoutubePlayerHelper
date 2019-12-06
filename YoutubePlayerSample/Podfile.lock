@@ -1,0 +1,16 @@
+PODS:
+  - YoutubePlayerHelper (0.1.1)
+
+DEPENDENCIES:
+  - YoutubePlayerHelper (from `../`)
+
+EXTERNAL SOURCES:
+  YoutubePlayerHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YoutubePlayerHelper: 483b89b0c22dd098dbaca0c72ef69fdf9c766b6e
+
+PODFILE CHECKSUM: 0245982f116ec0946beb874df868bcf8f3216d1a
+
+COCOAPODS: 1.8.4

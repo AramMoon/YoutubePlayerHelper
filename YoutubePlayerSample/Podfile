@@ -1,0 +1,5 @@
+platform :ios, '10.1'
+
+target 'YoutubePlayerSample' do
+  pod 'YoutubePlayerHelper', :path => '../'
+end

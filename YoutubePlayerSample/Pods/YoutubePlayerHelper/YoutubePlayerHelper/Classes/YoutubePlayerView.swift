@@ -620,19 +620,11 @@ public class YoutubePlayerView: UIView {
         addSubview(webView!)
         webView?.translatesAutoresizingMaskIntoConstraints = false
         webView?.frame = CGRect(origin: CGPoint.zero, size: self.frame.size)
-
-        guard let bundlePath = Bundle.init(for: self.classForCoder).resourcePath else {
-            print("bundle path is nil")
+        guard let bundle = Bundle(identifier: "org.cocoapods.YoutubePlayerHelper") else {
+            print("Bundle is nil")
             return false
         }
-        let resourcePath = bundlePath + "/YoutubePlayerHelper.bundle"
-        
-        guard let bundle = Bundle.init(path: resourcePath) else {
-            print("bundle is nil")
-            return false
-        }
-        
-        guard let fileData = NSDataAsset(name: "iframeHtml",bundle: bundle)?.data else {
+        guard let fileData = NSDataAsset(name: "iframeHtml", bundle: bundle)?.data else {
             print("iframe HTML file is nil")
             return false
         }

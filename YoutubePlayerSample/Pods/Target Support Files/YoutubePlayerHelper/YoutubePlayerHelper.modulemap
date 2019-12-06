@@ -1,0 +1,6 @@
+module YoutubePlayerHelper {
+  umbrella header "YoutubePlayerHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
